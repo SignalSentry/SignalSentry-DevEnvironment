@@ -1,5 +1,10 @@
+# Name of the image: signalsentry-dev-env
+# Version of the image: 1.0
+# Dockerfile for the development environment of SignalSentry
+# Author: River Lee James (Munster Technological University)
+
 # Start from a Python 3.12 base image - Debian Bookworm
-FROM python:3.11.7-bookworm
+FROM python:3.11.7-bookworm AS signalsentry-dev-env
 
 # Set the working directory in the container to /usr/src/signalsentry
 WORKDIR /usr/src/signalsentry
