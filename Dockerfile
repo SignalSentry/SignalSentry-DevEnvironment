@@ -31,7 +31,8 @@ RUN pip install --no-cache-dir jupyterlab \
     seaborn \
     opencv-python \
     nltk \
-    spacy
+    spacy \
+    scipy
 
 # Expose the ports for Jupyter Lab (8888) and TensorBoard (6006)
 EXPOSE 8888 6006
